@@ -145,37 +145,8 @@
     <!-- Signal Flow Card -->
     <div class="card mb-3">
         <div class="card-header">🔀 Signal Flow</div>
-        <div class="card-body">
-            <div class="row g-2 align-items-center mb-2">
-                <div class="col">
-                    <div id="flow-mic" class="flow-box disconnected">
-                        <div class="label">Physical Mic</div>
-                        <div class="name" id="flow-mic-name">—</div>
-                    </div>
-                </div>
-                <div class="col-auto flow-arrow">→</div>
-                <div class="col">
-                    <div id="flow-vmic" class="flow-box disconnected">
-                        <div class="label">PBS Virtual Mic</div>
-                        <div class="name">pbs_virtual_mic</div>
-                    </div>
-                </div>
-            </div>
-            <div class="row g-2 align-items-center">
-                <div class="col">
-                    <div id="flow-app" class="flow-box disconnected">
-                        <div class="label">Target App</div>
-                        <div class="name" id="flow-app-name">—</div>
-                    </div>
-                </div>
-                <div class="col-auto flow-arrow">→</div>
-                <div class="col">
-                    <div class="flow-box" style="opacity:0.35; border-style:dashed;">
-                        <div class="label">PBS Virtual Mic</div>
-                        <div class="name">pbs_virtual_mic</div>
-                    </div>
-                </div>
-            </div>
+        <div class="card-body p-0">
+            <canvas id="flow-canvas" style="width:100%; display:block; border-radius: 0 0 10px 10px;"></canvas>
         </div>
     </div>
 
