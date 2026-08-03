@@ -22,9 +22,11 @@ I can't code sh*t since AI took over the world and I'm no longer a software engi
 
 ---
 
-## 📦 AppImage (Recommended)
+## 📦 Installation
 
-PBS is packaged as a portable **AppImage** . I recommend installing it with GearLever.
+[https://github.com/K1TTYBLACK/PipewireBrowserSoundpad/releases](**📥 DOWNLOAD HERE**)
+
+PBS is packaged as a portable **AppImage**. I recommend installing it with [https://flathub.org/en/apps/it.mijorus.gearlever](GearLever).
 
 ### Build AppImage
 ```bash
@@ -40,7 +42,3 @@ PBS is packaged as a portable **AppImage** . I recommend installing it with Gear
 ---
 
 ## Feel free to contribute/request features/report bugs.
-
-
-
-
